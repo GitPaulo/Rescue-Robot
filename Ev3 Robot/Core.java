@@ -17,12 +17,12 @@ public class Core {
         robot.installMonitor(monitor);
         
         // Start the Pilot Monitor
-           monitor.start();
+        monitor.start();
            
-           // Start the Color Sampling
+        // Start the Color Sampling
         robot.startSampler();  
            
-           // Start Robot Controller
-           rc.start();
+        // Start Robot Controller
+        rc.start();
     }
 }
