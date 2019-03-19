@@ -4,7 +4,7 @@
  */
 public class Utility {
     public static float shortestRotationAngle(float ang) {
-        if (ang > 180)A
+        if (ang > 180)
             ang -= 360;
         else if (ang < -180)
             ang += 360;
