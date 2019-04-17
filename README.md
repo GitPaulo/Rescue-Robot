@@ -40,3 +40,16 @@ The EV3 Reactive agent should minimally be responsible for:
   - Infra Red sensor, can detect the beacon at the hospital, but its range is poor (typically no more than approximately 50cm);
   - Ultrasound, cannot detect the beacon at the hospital but has a good range (typically greater than 1m).
 - Two light sensors positioned in the front of the car pointing downwards. These were used to scan the arena's checkpoints and grid black lines. 
+
+## How to use this? 
+Recommended way:
+- Build a robot with the configuration described above.
+- Build an arena with the configuration described above.
+- Install Eclipse with lejos ev3 packages installed.
+- Download and install Jason & JEdit -> jason.sourceforge.net/mini-tutorial/-started/
+- Open JEdit and import the files from [Jason Environment/](Jason Environment/)
+- Run [Ev3 Robot/Core.java](Ev3 Robot/Core.java)
+- Wait for the files to be uploaded to the robot.
+- Robot should enter sampling mode - sample each of the colors (as instructed by the LCD) by pressing the center button on the Ev3 Brick.
+- Place the robot at the hospital square.
+- Press start and let the robot go!
