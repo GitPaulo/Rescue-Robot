@@ -46,9 +46,9 @@ Recommended way:
 - Build a robot with the configuration described above.
 - Build an arena with the configuration described above.
 - Install Eclipse with lejos ev3 packages installed.
-- Download and install Jason & JEdit -> jason.sourceforge.net/mini-tutorial/-started/
-- Open JEdit and import the files from [Jason Environment/](Jason Environment/)
-- Run [Ev3 Robot/Core.java](Ev3 Robot/Core.java)
+- Download and install Jason & JEdit -> [jason.sourceforge.net/mini-tutorial/-started/](jason.sourceforge.net/mini-tutorial/-started/)
+- Open JEdit and import the files from [/Jason Environment/](Jason Environment/)
+- Run [/Ev3 Robot/Core.java](Ev3 Robot/Core.java)
 - Wait for the files to be uploaded to the robot.
 - Robot should enter sampling mode - sample each of the colors (as instructed by the LCD) by pressing the center button on the Ev3 Brick.
 - Place the robot at the hospital square.
