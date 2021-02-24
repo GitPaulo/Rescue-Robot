@@ -1,5 +1,5 @@
 # Rescue-Robot
-An instruction robot built with the lejos ev3 API networked and communicating with agents via the JSON environment.
+An instruction robot built with the lejos ev3 API networked and communicating with agents via the Jason environment.
 The task is for the robot car to navigate itself around the arena in order to find and retrieve victims to the hospital.
 Victims will be prioritized by status. Their locations are unknown (only possible locations known to the paramedic agent). 
 
@@ -14,7 +14,7 @@ The AgentSpeak agent should minimally be responsible for:
       -> If all victims have been rescued, go home.
     Informing the status of a discovered victim.
 
-The JASON Environment should minimally be responsible for:
+The Jason Environment should minimally be responsible for:
 
     Communicating with the EV3 brick.
     Displaying the map representing the current status of the mission.
